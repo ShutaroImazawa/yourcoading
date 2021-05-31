@@ -1,0 +1,52 @@
+.top {
+  padding-top: 94px;
+  @include pc {
+    padding-top: 130px;
+  }
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include pc {
+      position: relative;
+    }
+  }
+  &__text {
+    margin-right: 120px;
+    @include pc {
+      text-align: center;
+      margin-right: 0;
+    }
+    &__title {
+      font-size: 3.2rem;
+      @include sp{
+        font-size: 2.5rem;
+      }
+    }
+    &__desc {
+      font-size: 1.6rem;
+      padding-top: 38px;
+      @include sp{
+        font-size: 1.4rem;
+      }
+    }
+    &__btn {
+      margin-top: 39px;
+      @include pc {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    &__img {
+      background-image: url(/img/circle.png);
+      background-position: left bottom;
+      background-repeat: no-repeat;
+      @include pc {
+        position: absolute;
+        opacity: 0.15;
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,28 @@
+.contact{
+  background: transparent linear-gradient(90deg, #05A5FA 0%, #63FBD7 100%, #67FFD6 100%);
+  color: #fff;
+  padding-top: 71px;
+  padding-bottom: 58px;
+  &__title{
+    &__sub{
+      color: #fff;
+
+    }
+
+  }
+  &__inner{
+    text-align: center;
+
+  }
+  &__text{
+    padding-top: 44px;
+    font-size: 1.6rem;
+
+  }
+  &__btn{
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
